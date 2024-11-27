@@ -1,0 +1,7 @@
+.background {
+    background-color: rgb(6, 6, 167);
+}
+
+.nav-item > a:hover {
+    color: rgb(189, 189, 189) !important;
+}

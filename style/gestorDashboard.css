@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(6, 6, 167);
+}
+
+#options-dashboard > .col {
+    background-color: white;
+    border-radius: 5px;
+    min-height: 214.9px;
+}
+
+#options-dashboard > .col:hover {
+    box-shadow: 0 1rem 3rem rgb(0, 0, 88) !important;
+    transform: scale(1.05);
+    transition: 0.3s;
+    cursor: pointer;
+}

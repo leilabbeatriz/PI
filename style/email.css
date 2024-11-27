@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(6, 6, 167);
+    width: 100vw;
+    height: 100vh;
+}
+
+.titulo{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.containerAll{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 600px;
+    height: 400px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.area{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+input{
+    text-align: justify;
+    height: 50px;
+    cursor: pointer;
+}
+
+textarea{
+    height: 150px;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+    width: 100px;
+}
+
+.btn:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.3s;
+}
